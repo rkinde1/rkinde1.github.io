@@ -7,6 +7,15 @@ https://mkrtchyan.ga
     margin: 0;
     padding: 0;
 }
+.navigation {
+    /* background-color:rgba(0, 0, 0, 0.9); */
+    color:#ffffff;
+    display:block;
+    height:100%;
+    position:relative;
+    
+    /* z-index:4; */
+}
 header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
@@ -18,13 +27,14 @@ header {
 }
 
 body {
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         -225deg,
         #725ac7 0%,
         #44107a 29%,
         #ff1361 67%,
         #f5ce4d 100%
-    );
+    ); */
+    background-color: #000;
       animation: textclip 10s linear infinite;
       display: inline-block;
       font-size: 25px;
@@ -150,4 +160,28 @@ header a, a:visited {
   border: 5px solid #ff1361;
   background: linear-gradient(to left, #44107a, #ff1361, #f5ce4d);
   border-radius: 50%;
+}
+
+.left {
+  float: left;
+  width: 32%;
+  padding-top: 20px;
+}
+
+.right {
+  float: right;
+  width: 32%;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.bottom {
+  padding-top: 400px;
 }
